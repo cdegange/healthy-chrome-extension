@@ -47,6 +47,8 @@ section {
   align-items: center;
   flex-direction: column;
   background-color: transparent;
+  margin-top: 15vh;
+  margin-bottom: 20vh;
 }
 
 button {
@@ -64,6 +66,7 @@ button:hover {
   cursor: pointer;
   background-color: #f05757;
   transition: 0.5;
+  transform: scale(1.2);
 }
 
 #navButtons {
