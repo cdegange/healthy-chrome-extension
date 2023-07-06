@@ -1,33 +1,88 @@
-body {
-  background-image: url('https://www.uhhospitals.org/-/media/Images/Blog/Girl-Healthy-Lifestyle-Illustration-1363368428-Blog-MainArticleImage.jpg?h=450&w=720&la=en&hash=2B1A5829A100549E39A3F7E08463DC88EBB304F0');
+
+#main {
+  position: relative;
   width: 100%;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+#main::before {
+  content: "";
+  background-image: url('https://www.uhhospitals.org/-/media/Images/Blog/Girl-Healthy-Lifestyle-Illustration-1363368428-Blog-MainArticleImage.jpg?h=450&w=720&la=en&hash=2B1A5829A100549E39A3F7E08463DC88EBB304F0');
+  background-size: cover;
+  position:absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: .5;
+}
+
 header {
-   background-color: transparent; 
-   margin-right: auto;
-   margin-left: auto;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #f05757;
+  font-weight: 400;
+  position: relative;
+  font-size: 3vh;
+  background-color: transparent; 
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h2 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:#414a4c ;
+  font-weight: bolder;
+  position: relative;
+  font-size: 3vh;
+  margin-bottom: 8vh;
 }
 
 section {
+  position: relative;
   height: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: transparent;
 }
-#navButtons {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    border-radius: 10px;
-    height: 10vh;
-    width: 20vw;
-}
 
 button {
-    color: navy
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  color: navy;
+  padding: 10px;
+  margin: 20px;
+  border: solid 1px grey;
+  border-radius: 10px;
+  background-color: aquamarine;
 }
+
+#navButtons {
+    display: grid;
+    grid-template-columns: repeat(auto 100px);
+    flex-wrap: wrap;
+    width: 30%;  
+}
+
+.buttonPics {
+  border-radius: 10%;
+height: auto;
+align-self: center;
+max-width: 70%;
+}
+
+/* border-radius: 10px;
+    height: 4vh;
+    width: 20vw;
+    margin-bottom: 65vh; */
+
+    /* #navButtons > div {
+  margin-left: 20%;
+  width: 100%;
+  padding: 2%;
+  align-items: center;
+} */

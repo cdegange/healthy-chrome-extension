@@ -1,22 +1,27 @@
-const contents = document.getElementById('LocationFrameId');
+//window.addEventListener("DOMContentLoaded", (event) => {
+    //console.log("DOM fully loaded and parsed");
+    const contents = document.getElementById('LocationFrameId');
+    const orderFoodBtn = document.getElementsByClassName('btn-round btn-round--red');
+
+//});
 // const contentsParent = contents.parentNode;
 
 // contents.remove();
 
 contents.innerHTML = `
+<style backgroundColor = 'lightblue'>
   <img src ='https://imgur.com/3keXNnU.gif'/>
-  <h1>We see you are about to make a bad choice!</h1> `
+  <h1>We see you are about to make a bad choice!</h1> </span>"
+</style>
+`
 
 
-//order-button-group flex
-const button = document.querySelector('order-button-group flex')
-button.addEventListener('click', function(){
-    alert('Hang on a sec....')
-    redirect()
-})
+//{/* <script>document.getElementById('LocationFrameId').style.backgroundColor = 'lightblue'</script>` */}
 
 
-
+// orderFoodBtn.addEventListener("click", (event) => {
+// alert('hello')
+// });
 
 const redirect = () => {
   window.location.href = "http://www.localhost:5500";
@@ -25,6 +30,16 @@ const redirect = () => {
 setTimeout(() => {
   redirect();
 }, 5000);
+
+    
+   
+
+
+
+
+
+
+
 
 
 // const onClick = (e) => {
