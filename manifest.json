@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Healthy Choices",
+    "version": "1",
+    "description": "Let's make healthier options!",
+    "content_scripts": [
+      {
+        "matches": ["https://www.chick-fil-a.com/"],
+        "js": ["./main.js"],
+        "html": ["index.html"],
+        "css": ["style.css"]
+      }
+    ]
+  }
+  

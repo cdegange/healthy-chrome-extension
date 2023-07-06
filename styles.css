@@ -1,0 +1,29 @@
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+   background-color: lightblue; 
+   margin-right: auto;
+   margin-left: auto;
+}
+
+section {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: pink;
+}
+#navButtons {
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    color: navy
+}
