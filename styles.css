@@ -1,4 +1,5 @@
 body {
+  background-image: url('https://www.uhhospitals.org/-/media/Images/Blog/Girl-Healthy-Lifestyle-Illustration-1363368428-Blog-MainArticleImage.jpg?h=450&w=720&la=en&hash=2B1A5829A100549E39A3F7E08463DC88EBB304F0');
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -6,7 +7,7 @@ body {
 }
 
 header {
-   background-color: lightblue; 
+   background-color: transparent; 
    margin-right: auto;
    margin-left: auto;
 }
@@ -16,12 +17,15 @@ section {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: pink;
+  background-color: transparent;
 }
 #navButtons {
-    background-color: lightgreen;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
+    border-radius: 10px;
+    height: 10vh;
+    width: 20vw;
 }
 
 button {

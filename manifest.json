@@ -8,7 +8,7 @@
         "matches": ["https://www.chick-fil-a.com/"],
         "js": ["./main.js"],
         "html": ["index.html"],
-        "css": ["style.css"]
+        "css": ["styles.css"]
       }
     ]
   }
